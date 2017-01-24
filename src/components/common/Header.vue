@@ -19,8 +19,6 @@
             <router-link to="/algorithm" activeClass="active" tag="li" class="nav-item"><a>Algorithm</a></router-link>
             <router-link to="/diet" activeClass="active" tag="li"exact><a>Diet</a></router-link>
             <router-link to="/therapy" activeClass="active" tag="li"exact><a>Therapy</a></router-link>
-            <router-link to="/complications" activeClass="active" tag="li"exact><a>Complications</a></router-link>
-            <!--<router-link to="/tools" activeClass="active" tag="li"exact><a>Tools</a></router-link>-->
 
           </ul>
         </div><!--/.nav-collapse -->

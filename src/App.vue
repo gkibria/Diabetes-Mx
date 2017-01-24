@@ -29,9 +29,18 @@ export default {
 </script>
 
 <style lang="css">
-.list-group-item {
-  padding: 5px;
-}
+  .navbar {
+      margin-bottom: 10px;
+      min-height: 10px;
+    }
+
+    hr {
+      margin: 10px 0px; 
+    }
+
+    .list-group-item {
+      padding: 5px;
+    }
   /*h2 {
     font-size: 25px;
   }*/

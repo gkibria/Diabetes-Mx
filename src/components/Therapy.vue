@@ -3,14 +3,24 @@
         <h4 class="text-center">Treatment Therapy</h4>
         <hr>
 
-        <div class="row">
-            <div class="col-md-6 col-sm-6">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#oads" data-toggle="tab">OADs</a></li>
+            <li><a href="#injectables" data-toggle="tab">Injectables</a></li>
+            <li><a href="#insulin" data-toggle="tab">Insulin Therapy</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane active" id="oads">
                 <Oad :oads="oads"></Oad>
             </div>
-            <div class="col-md-6 col-sm-6">
+            <div class="tab-pane" id="injectables">
                 <injectable :injs="injs"></injectable>
             </div>
+            <div class="tab-pane" id="insulin">
+                <insulin></insulin>
+            </div>
         </div>
+
     </div>
 </template>
 
@@ -18,6 +28,7 @@
     import _ from 'lodash'
     import Oad from './therapy/oad.vue'
     import Injectable from './therapy/Injectable.vue'
+    import Insulin from './therapy/Insulin.vue'
     export default {
         data(){
             return {
@@ -26,7 +37,7 @@
             }
         },
         components: {
-            Oad, Injectable
+            Oad, Injectable, Insulin
         },
         methods: {
             

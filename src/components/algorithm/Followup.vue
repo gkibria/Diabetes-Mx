@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h4>Followup</h4>
+        <h4>Follow-up</h4>
         <p>Adjust the dose of drug to keep blood glucose bellow targets and check HbA1c at a interval of 3 months. Change the regimen
             to next step if HbA1c &ge; 7%
         </p>
