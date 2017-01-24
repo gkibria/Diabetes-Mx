@@ -1,6 +1,6 @@
-# learn-diabetes
+# Diabetes Mx
 
-> A Vue.js project
+> A Vue 2 SPA project
 
 ## Build Setup
 
@@ -15,4 +15,4 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For live version,  [please click here](https://diabetesmx-d5b81.firebaseapp.com/).
